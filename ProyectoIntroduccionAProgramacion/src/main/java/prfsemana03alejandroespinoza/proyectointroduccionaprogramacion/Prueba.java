@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
  * @author aleja
  */
 public class Prueba {
-    public static void main(String[] args) {
+    public void menu() {
         // Declarar una variable para almacenar la opción elegida
         int opcion = 0;
         // Crear un ciclo while que se repita hasta que la opción sea 5 (salir)

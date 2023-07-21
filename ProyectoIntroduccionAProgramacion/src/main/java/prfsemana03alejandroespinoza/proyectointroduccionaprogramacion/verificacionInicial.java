@@ -24,6 +24,7 @@ public class verificacionInicial {
         administradores.put("Ale","123");
         clientes.put("Jenny","456");
         Administradores administrador = new Administradores();
+        Prueba test = new Prueba();
         Usuarios usuario = new Usuarios();
         String user ="";
         String pass ="";
@@ -42,7 +43,7 @@ public class verificacionInicial {
             } else if (clientes.containsKey(user) && clientes.get(user).equals(pass)){
                 permitir = true;
                 JOptionPane.showMessageDialog(null,"Eres usuario");
-                administrador.Bienvenida();
+                test.menu();
             } else {
                 intentos--;
                 JOptionPane.showMessageDialog(null,"Contraseña o usuario incorrecto, "
